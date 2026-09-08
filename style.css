@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0%;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(image/bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin-left: 40px;
+  padding: 30px;
+}
+
+.navbar a:hover {
+  color: rgb(29, 145, 240);
+}
+
+.navbar li a {
+  margin-left: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.bagian1 {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.text {
+  flex-basis: 50%;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+button {
+  width: 180px;
+  color: black;
+  font-size: 12px;
+  padding: 12px 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 0;
+  outline: none;
+  margin-top: 30px;
+  cursor: pointer;
+  color: rgb(29, 145, 240);
+}
+
+button:hover {
+  background-color: rgb(29, 145, 240);
+  color: white;
+}
+
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 3px 3px 4px rgba(0, 2, 2, 2.5);
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card1 {
+  background-image: url(image/foto1.jpeg);
+}
+.card2 {
+  background-image: url(image/foto2.jpeg);
+}
+.card3 {
+  background-image: url(image/foto3.jpeg);
+}
+.card4 {
+  background-image: url(image/foto4.jpeg);
+}
